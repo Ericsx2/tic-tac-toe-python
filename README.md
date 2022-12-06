@@ -41,3 +41,8 @@ No lado do servidor quando o cliente é fechado e finaliza o loop principal, o s
 ## Por que protocolo TCP?
 
 Diferente de jogos muito mais complexos e muito mais elaborados onde se passa uma quantidade enorme de informações a por pacote, a perda de pacotes é tolerável, porém, o jogo da velha é muito simples, onde so é passada a uma simples string de 3 caracteres. Sendo assim caso essas informação seja perdida afetara diretamente o funcionamento do programa, assim, sendo mais interessante o uso do protocolo TCP para a confiabilidade de que os dados cheguem ao seu destino.
+
+## Autores
+
+- [Eric Soares Silva](https://github.com/Ericsx2)
+- [Dan Souza Sampaio](https://github.com/danssampaio)
