@@ -60,12 +60,12 @@ class Game:
   def verify_board(self):
     for row in range(3):
       if self.board[row][0] == self.board[row][1] == self.board[row][2] != ' ':
-        self.winner == self.board[row][0]
+        self.winner = self.board[row][0]
         self.game_over = True
         self.end_game()
     for column in range(3):
       if self.board[0][column] == self.board[1][column] == self.board[2][column] != ' ':
-        self.winner == self.board[0][column]
+        self.winner = self.board[0][column]
         self.game_over = True
         self.end_game()
     if self.board[0][0] == self.board[1][1] == self.board[2][2] != ' ':
